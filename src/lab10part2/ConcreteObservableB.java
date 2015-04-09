@@ -58,7 +58,7 @@ public class ConcreteObservableB extends Observer { //the entry table
         this.state.setEntryValue(2, Double.parseDouble(entry3.getText()) );
         this.state.setEntryValue(3, Double.parseDouble(entry4.getText()) );
         
-        System.out.println("updating the bar graph");
+        System.out.println("updating the entries");
     }
     
 }

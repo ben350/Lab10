@@ -15,13 +15,16 @@ import java.util.List;
 public class Subject {
 	
    private List<Observer> observers = new ArrayList<Observer>();
-   private int state;
+   private State state;
 
-   public int getState() {
+   
+  
+   
+   public State getState() {
       return state;
    }
 
-   public void setState(int state) {
+   public void setState(State state) {
       this.state = state;
       notifyAllObservers();
    }

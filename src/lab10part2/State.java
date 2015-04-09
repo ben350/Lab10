@@ -28,5 +28,9 @@ public class State {
         System.out.println("Setting out the value of index" + index + "to "+ entryVal);
     }
     
+    public double[] getEntries(){
+        return this.entries;
+    }
+    
         
 }
